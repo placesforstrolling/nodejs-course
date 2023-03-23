@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 
-function requsetHandler(req, res) {
+function requestHandler(req, res) {
 
     const url = req.url;
     const method = req.method;
@@ -39,5 +39,5 @@ function requsetHandler(req, res) {
       res.end();
 }
 
-module.exports = requsetHandler;
+module.exports = requestHandler;
     

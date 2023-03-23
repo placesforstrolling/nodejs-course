@@ -1,0 +1,16 @@
+{
+  "name": "3.38-using-the-node-modules-system",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start-server": "node server.js"
+  },
+  "author": "Mustafa Anvarov",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
